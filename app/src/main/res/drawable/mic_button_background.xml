@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/jarvis_card" />
+            <stroke android:width="2dp" android:color="@color/jarvis_accent" />
+        </shape>
+    </item>
+    <item android:top="6dp" android:bottom="6dp" android:left="6dp" android:right="6dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="120"
+                android:centerColor="@color/jarvis_accent"
+                android:endColor="@color/jarvis_accent_dark" />
+        </shape>
+    </item>
+</layer-list>
