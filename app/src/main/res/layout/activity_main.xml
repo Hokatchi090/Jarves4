@@ -108,7 +108,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="دوس واحكي \"جارفس\" وبعدها الأمر"
+        android:text="دوس واحكي &quot;جارفس&quot; وبعدها الأمر"
         android:textColor="@color/jarvis_text_secondary"
         android:fontFamily="monospace"
         android:textSize="12sp" />
